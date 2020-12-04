@@ -1,0 +1,17 @@
+S ->  BAb
+A ->  cABC | bB | a
+B ->  b
+C ->  cA
+
+0. S ->   BAb
+1. A ->   cABC
+2. A ->   bB
+3. A ->   a
+4. B ->   b
+5. C ->   cA
+
+     a       b        c
+S   -1       1       -1
+A    4       3        2
+B   -1       5       -1
+C   -1      -1        6
